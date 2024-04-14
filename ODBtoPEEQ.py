@@ -4,47 +4,12 @@ import csv
 def main():
     ### set parameters ###
     models=[
-        #L25SE2
         {
-        "fn_odb":'L25SE2.odb',
+        "fn_odb":'model.odb',
         "frameNum":150,
         "elSetName":'ElSet_ZCenter_NEW',
         "instName":'MODUNIFORM_L25-1',
         },
-        {
-        "fn_odb":'run15_GEN_20221104_190638_0040.odb',
-        "frameNum":210,
-        "elSetName":'ElSet_ZCenter',
-        "instName":'MODUNIFORM_L25-1',
-        },
-
-        #L25G3
-        {
-        "fn_odb":'L25G3.odb',
-        "frameNum":170,
-        "elSetName":'ElSet_ZCenter',
-        "instName":'MODUNIFORM_L25-1',
-        },
-        {
-        "fn_odb":'L25G3_GEN_20230309_004305_0022.odb',
-        "frameNum":190,
-        "elSetName":'ElSet_ZCenter',
-        "instName":'MODUNIFORM_L25-1',
-        },
-
-        #L25RegularOpen
-        # {
-        # "fn_odb":'L25RegularOpen.odb',
-        # "frameNum":10,
-        # "elSetName":'ElSet_ZCenter',
-        # "instName":'SPECIMEN',
-        # },
-        # {
-        # "fn_odb":'L25RegularOpen_GEN_20230323_161140_0047.odb',
-        # "frameNum":10,
-        # "elSetName":'ElSet_ZCenter',
-        # "instName":'SPECIMEN',
-        # },
     ]
 
     ### run ###
